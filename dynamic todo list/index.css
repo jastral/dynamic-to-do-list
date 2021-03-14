@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(7, 27, 63);
+    color: white;
+}
+
+.container_class{
+    text-align: center;
+    margin: 40px 100px 100px 40px;
+    padding-top: 40px;
+    border: 1px solid blueviolet;
+}
+
+.todo_box{
+    text-align: center;
+    margin: 40px 100px 100px;
+    /* border: 3px solid black; */
+}
+
+h2{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#task_display{
+    text-align: left;
+    width: 100%;
+    padding-top: 80px;
+}
+
+#to_do_task{
+    width: 90%;
+    
+    /*padding: 3px 3px 3px 3px;
+    border-radius: 5px; */
+    display: inline;
+    float: left;
+}
+
+#task_adder{
+    padding: 10px 0px 10px 0px;
+    margin-left: 0%;
+
+}
+
+td{
+    border-bottom: 1px solid #ddd;
+    padding: 5px 5px 5px 5px;;
+}
+
+tr:hover{
+    background-color: #204e52;
+}
+
